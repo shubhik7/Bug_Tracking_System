@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="employee reg.css">
+    <title>Bugs Register</title>
+</head>
+
+<body class="body">
+    <div class="bugsregistration-page">
+        <h1>Bugs Registration</h1>
+        <div class="form">
+            <form id="bugsregistration" action="#" method="POST" onsubmit="return validate()">
+                <div>
+                    BUG NAME: <input type="text" name="BUGNAME" id="Bug_Name" required>
+                </div>
+                <div>
+                    PROJECT ID:  <br><select name="PROJECTID" id="Project_ID" class="dropdown" required>
+                        <option value="156">156</option>
+                        <option value="178">178</option>
+                        <option value="459">459</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    RAISED BY: <br><select name="RAISEDBY" id="Raised_By" class="dropdown" required>
+                        <option value="Tanu">Tanu</option>
+                        <option value="Riya">Riya</option>
+                        <option value="Suyash">Suyash</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    PRIORITY ID: <br><select name="PRIORITYID" id="Priority_ID" class="dropdown" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    BUG STATUS: <select name="BUGSTATUS" id="Bug_Status" class="dropdown" required>
+                        <option value="Raised">Raised</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Resolved">Resolved</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    BUG DESC: <input type="text" name="BUGDESC" id="Bug_Desc" required>
+                </div>
+                <div>
+                    BUG RAISED DATE: <input type="date" name="BUGRAISEDDATE" id="Bug_Raised_Date" required>
+                  </div>
+                  <br>
+                  <button type="submit" value="submit" id="register">REGISTER</button>
+                  <button type="reset" id="reset">RESET</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

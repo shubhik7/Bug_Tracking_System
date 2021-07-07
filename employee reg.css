@@ -1,0 +1,119 @@
+.body{
+    background-image: url("image/pexels-fauxels-3183186.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .registration-page {
+    width: 800px;
+    padding: 8% 0 0;
+    margin: auto;
+  }   */
+  .form {
+    position: relative;
+    color: #ececec;
+    z-index: 1;
+    background: hsl(29deg 38% 35%);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: FontAwesome, "Roboto", sans-serif;
+    outline: 0;
+    background: #e4cdad;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  border-radius:10px;
+    
+  }
+  .form button {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    outline: 0;
+    background: #4f3c35;
+    width: 100%;
+    border: 0;
+  border-radius:30px;
+    margin: 0px 0px 8px;
+    padding: 15px;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+  }
+  .form button:hover,.form button:focus {
+    background: darkgoldenrod;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  .bugs{
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    display: table-footer-group;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 900;
+    mix-blend-mode: difference;
+  }
+   .dropdown{
+    padding: 8px 48px;
+    margin: 0px 37px;
+    background: #e4cdad;
+}
+ #countryId {
+  padding: 11px 21px;
+  background: #e4cdad;
+  
+}
+h1 {
+  color: bisque;
+  font-family: fantasy;
+  /* margin-block-start: auto; */
+  text-align-last: center;
+  font-size: -webkit-xxx-large;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration-color: darkgoldenrod;
+  text-decoration-thickness: 11px;
+  text-transform: uppercase;
+}
+ 
+button {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+select#stateid {
+  padding: 9px 73px;
+  background: #e4cdad;
+}
+.button {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  outline: 0;
+  background: #4f3c35;
+  width: 100%;
+  border: 0;
+border-radius:30px;
+  margin: 0px 0px 8px;
+  padding: 15px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.2s;
+  mix-blend-mode: #4f3c35;
+
+
+}

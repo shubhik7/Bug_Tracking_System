@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="employee reg.css">
+    <script defer src="project reg.js"></script>
+    <title>Project Register</title>
+</head>
+
+<body>
+
+    <body class="body">
+        <div class="registration-page">
+            <div class="form">
+                <h1>Project Registration </h1>
+                <form id="Projectregistration" action="#" method="POST" onsubmit="return validate()">
+                    <div>
+                        PROJECT ID: <input type="text" name="PROJECTID" id="Project_ID" required>
+                    </div>
+                    <div>
+                        PROJECT NAME: <input type="text" name="PROJECTNAME" id="Project_Name" required>
+                    </div>
+                    <div>
+                        START DATE:<span id="error"></span> <input type="date" name="STARTDATE" id="Start_Date"
+                            required>
+                    </div>
+                    <div>
+                        END DATE: <input type="date" name="ENDDATE" id="End_Date" required>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        ASSIGNED MANAGER: <br><select name="ASSIGNEDMANAGER" id="Assigned_Manager_ID" class="dropdown"
+                            required>
+                            <option value="option1">Riya Tiwari</option>
+                            <option value="option2">Rahul k</option>
+                            <option value="option3">Riddhi Gupta</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        PROJECT STATUS: <br> <select name="PROJECTSTATUS" id="Project_Status" class="dropdown" required>
+                            <option value="option1">COMPLETED</option>
+                            <option value="option2">INPROGRESS</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <input type="submit" value="REGISTER" id="register" class="button">
+                    <input type="reset" value="RESET" id="reset" class="button">
+                    <!-- <button type="submit" value="submit" id="register">REGISTER</button>
+                    <button type="reset" id="reset">RESET</button> -->
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

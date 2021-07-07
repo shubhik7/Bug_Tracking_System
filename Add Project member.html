@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="employee reg.css">
+    <title>Add Project Member</title>
+</head>
+<body class="body">
+    <div class="add_project_member">
+        <h1>Add Project Member</h1>
+        <div class="form">
+            <form id="Add_member" action="#" method="POST" onsubmit="return validate()">
+                <br>
+                <br>
+                <div>
+                    PROJECT ID: <br> <select name="PROJECTID" id="Project_ID" class="dropdown" required>
+                        <option value="156">156</option>
+                        <option value="178">178</option>
+                        <option value="459">459</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    MANAGER NAME: <input type="text" name="MANAGERNAME" id="Manager_Name" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    MEMBER NAME: <br><select name="MEMBERNAME" id="Member_Name" class="dropdown" required>
+                        <option value="Tanu">Tanu</option>
+                        <option value="Riya">Riya</option>
+                        <option value="Suyash">Suyash</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    STATUS: <br><select name="STATUS" id="Status" class="dropdown" required>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                    </select>
+
+                </div>
+                <br>
+                <br>
+                <button type="submit" value="submit" id="register">REGISTER</button>
+                <button type="reset" id="reset">RESET</button>
+            
+            </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

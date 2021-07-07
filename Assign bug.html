@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="employee reg.css">
+    <script defer src="Assign bug.js"></script>
+    <title>Assign Bugs</title>
+</head>
+<body class="body">
+    <div class="Assig_bugs">
+        <h1>Assign Bugs</h1>
+        <div class="form">
+            <form id="Assig_bugs" action="#" method="POST" onsubmit="return validate()">
+                <div>
+                    MANAGER NAME: <input type="text" name="MANAGERNAME" id="Manager_Name" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    PROJECT ID: <br> <select name="PROJECTID" id="Project_ID" class="dropdown" required>
+                        <option value="156">156</option>
+                        <option value="178">178</option>
+                        <option value="459">459</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    MEMBER NAME: <br><select name="MEMBERNAME" id="Member_Name" class="dropdown" required>
+                        <option value="Tanu">Tanu</option>
+                        <option value="Riya">Riya</option>
+                        <option value="Suyash">Suyash</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    BUG ID: <br><select name="BUGID" id="Bug_ID" class="dropdown" required>
+                        <option value="B_156_100">B_156_100</option>
+                        <option value="B_178_101">B_178_101</option>
+                        <option value="B_459_102">B_459_102</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    ASSIGNMENT DATE: <input type="date" name="ASSIGNMENTDATE" id="Assignment_Date" required>
+                </div>
+                <button type="submit" value="submit" id="register">REGISTER</button>
+                <button type="reset" id="reset">RESET</button>
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
